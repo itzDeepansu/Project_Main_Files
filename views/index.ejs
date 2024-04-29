@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Data to Backend</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+      </style>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="body">
+        <div class="navbar">
+            <img src="/icons/profile.jpg" alt="">
+            <div class="name">Chat With<br>
+                <b style="font-size: 23px;">Deepansu</b>
+            </div>
+            <img src="https://cdn.hugeicons.com/icons/menu-01-stroke-rounded.svg" alt="menu-01" width="30" height="30" class="settings"/>
+        </div>
+        <div class="answerarea">
+            
+            <div class="answer">
+            </div>
+        </div>
+        <div class="questionarea">
+            <input type="text" id="inputField" class="questioninput" placeholder="Enter your question">
+            <button onclick="sendData()">
+                <img src="/icons/send.png" alt="">
+            </button>
+            <svg class="mic" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48"><g fill="none" stroke="white" stroke-linejoin="round" stroke-width="4"><rect width="14" height="27" x="17" y="4" fill="white" rx="7"/><path stroke-linecap="round" d="M9 23c0 8.284 6.716 15 15 15c8.284 0 15-6.716 15-15M24 38v6"/></g></svg>
+        </div>
+    </div>
+</body>
+</html>
